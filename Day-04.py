@@ -109,6 +109,7 @@ else:
 '''
 
 #same case y=using nested --> if, else
+'''
 age = int(input("enter the age :"))
 if age >0:
     if age>=18:
@@ -119,7 +120,16 @@ if age >0:
         print("you need to wait for more",age,"years.")
 else:
     print("ypu have enetered invalid values")
+'''
 
+#task :student marks and grade analayzer
+'''
+90-100 -> A
+80-79 -> B
+70-69 -> c
+60-79 -> d
+>60-->Fail
+also -ve cases should not be allowed and marks shoukdnt be greater than 100
 
 
 
